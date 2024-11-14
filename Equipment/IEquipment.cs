@@ -1,3 +1,4 @@
-public abstract class IEquipment{
-    
+public abstract class IEquipment
+{
+
 }
