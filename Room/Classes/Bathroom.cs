@@ -4,6 +4,9 @@ public class Bathroom : IRoom {
     public int capacity;
     public string name;
     public string type;
+
+    List<IEquipment> toilets = new List<IEquipment>();
+    List<IEquipment> sinks = new List<IEquipment>();
     
     public void AddEquipment(IEquipment equipment) {
         equipments.Add(equipment);

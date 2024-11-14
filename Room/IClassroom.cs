@@ -1,9 +1,20 @@
-public class Classroom : IRoom {
+public class IClassroom : IRoom {
     public int number;
     public int floor;
     public int capacity;
     public string name;
     public string type;
+
+    List<IEquipment> desks = new List<IEquipment>();
+    List<IEquipment> chairs = new List<IEquipment>();
+    List<IEquipment> whiteboards = new List<IEquipment>();
+
+    List<IPerson> students = new List<IPerson>();
+    List<IPerson> teachers = new List<IPerson>();
+    List<IPerson> coaches = new List<IPerson>();
+
+    List<IDepartment> departments = new List<IDepartment>();
+    public Building building;
     
     public void AddEquipment(IEquipment equipment) {
         equipments.Add(equipment);
