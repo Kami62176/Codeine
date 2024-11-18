@@ -1,4 +1,3 @@
-public abstract class IPerson
+public interface IPerson
 {
-
 }
