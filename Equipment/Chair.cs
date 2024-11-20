@@ -1,6 +1,7 @@
 public abstract class Chair : IEquipment
 {
-    public Chair(string name) : base(name){
-        
+    public int legs;
+    public Chair(string name, int legs) : base(name){
+        this.legs = legs;
     }
 }
