@@ -15,11 +15,6 @@ public class Student : IPerson
   public double GPA { get; set; }
   public string Major { get; set; }
 
-  public Student()
-  {
-    // Default constructor
-  }
-
   public Student(string firstName, string lastName, DateTime dateOfBirth)
   {
     FirstName = firstName;

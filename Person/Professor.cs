@@ -15,10 +15,6 @@ public class Professor : IPerson
   public string Title { get; set; }
   public string ResearchArea { get; set; }
 
-  public Professor()
-  {
-  }
-
   public Professor(string firstName, string lastName, DateTime dateOfBirth)
   {
     FirstName = firstName;
