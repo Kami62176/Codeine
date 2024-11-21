@@ -1,6 +1,9 @@
 public abstract class Table : IEquipment
 {
-    public Table(string name) : base(name){
-        
+    
+    public int Legs {get; set;}
+
+    public Table(string name, int legs) : base(name){
+        this.Legs = legs;
     }
 }

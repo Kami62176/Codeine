@@ -1,6 +1,8 @@
 public class Marker : IEquipment
 {
-    public Marker(string name) : base(name)
+    public string Color {get; set;} 
+    public Marker(string name, string color) : base(name)
     {
+        this.Color = color;
     }
 }
