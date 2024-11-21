@@ -4,7 +4,5 @@ public abstract class IEquipment
 
     public IEquipment(string name){
         this.Name = name;
-    }
-
-    
+    } 
 }

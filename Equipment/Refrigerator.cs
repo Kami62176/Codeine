@@ -9,6 +9,4 @@ public class Refrigerator : IEquipment
         this.Width = width;
         this.Height = height;
     }
-
-
 }
